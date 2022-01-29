@@ -1,0 +1,16 @@
+{
+  "name": "Print-o-matic",
+  "version": "1.0.0",
+  "description": "A printing power-up for trello",
+  "main": "index.js",
+  "repository": "https://github.com/Helios113/Print-o-matic.git",
+  "author": "Preslav <preslav.aleksandrov@protonmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build" : "parcel build src/html/*.html"
+  },
+  
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
